@@ -155,8 +155,8 @@ var draw_viz = function(scene){
       // toggle the burron appropriately
       document.getElementById("survpcBtn").disabled = false;
       document.getElementById("histBtn").disabled = true;
-      document.getElementById("survnumBtn").disabled = false;
-      document.getElementById("survgenBtn").disabled = false;
+      document.getElementById("survnumBtn").disabled = true;
+      document.getElementById("survgenBtn").disabled = true;
 
 		} else if (scene == "survpc"){
 
@@ -184,7 +184,7 @@ var draw_viz = function(scene){
       document.getElementById("survpcBtn").disabled = true;
       document.getElementById("histBtn").disabled = false;
       document.getElementById("survnumBtn").disabled = false;
-      document.getElementById("survgenBtn").disabled = false;
+      document.getElementById("survgenBtn").disabled = true;
 
 
 
@@ -220,7 +220,7 @@ var draw_viz = function(scene){
       document.getElementById("survnumBtn").disabled = true;
       document.getElementById("histBtn").disabled = false;
       document.getElementById("survpcBtn").disabled = false;
-      document.getElementById("survgenBtn").disabled = false;
+      document.getElementById("survgenBtn").disabled = true;
 
 
 
